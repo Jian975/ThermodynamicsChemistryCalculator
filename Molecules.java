@@ -61,7 +61,55 @@ public enum Molecules {
     C2_H6_g(new Molecule(-84.7, -32.9, 229.5), "C2H6(g)"),
     C3_H6_g(new Molecule(20.9, 62.7, 266.9), "C3H6(g)"),
     C3_H8_g(new Molecule(-104.0, -24.0, 270.0), "C3H8(g)"),
-    C2_H4_O_g(new Molecule(-53.0, -13.0, 242.0), "C2H4O(g)");
+    C2_H4_O_g(new Molecule(-53.0, -13.0, 242.0), "C2H4O(g)"),
+    C_H2_C_H_C_N_g(new Molecule(185.0, 195.4, 274.0), "CH2=CHCN(g)"),
+    C_H3_C_O_O_H_l(new Molecule(-484.0, -389.0, 169.0), "CH3COOH(l)"),
+    C6_H12_O6_s(new Molecule(-1275.0, -911.0, 212.0), "C6H12O6(s)"),
+    C_Cl4(new Molecule(-135.0, -65.0, 216.0), "CCl4"),
+
+    //Chlorine
+    Cl2_g(new Molecule(0.0, 0.0, 223.0), "Cl2(g)"),
+    Cl2_aq(new Molecule(-23.0, 7.0, 121.0), "Cl2(aq)"),
+    Cl_1_minus_aq(new Molecule(-167.0, -131.0, 57.0), "Cl^-(aq)"),
+    H_Cl_g(new Molecule(-92.0, -95.0, 187.0), "HCl(g)"),
+
+    //Chromium
+    Cr_s(new Molecule(0.0, 0.0, 24.0), "Cr(s)"),
+    Cr2_O3_s(new Molecule(-1128.0, -1047.0, 81.0), "Cr2O3(s)"),
+    Cr_O3_s(new Molecule(-579.0, -502.0, 72.0), "CrO3(s)"),
+
+    //Copper
+    Cu_s(new Molecule(0.0, 0.0, 33.0), "Cu(s)"),
+    Cu_C_O3_s(new Molecule(-595.0, -518.0, 88.0), "CuCO3(s)"),
+    Cu2_O_s(new Molecule(-179.0, -148.0, 93.0), "Cu2O(s)"),
+    Cu_O_s(new Molecule(-156.0, -128.0, 43.0), "CuO(s)"),
+    Cu_OH_2_s(new Molecule(-450.0, -372.0, 108.0), "Cu(OH)2(s)"),
+    Cu_S_s(new Molecule(-49.0, -49.0, 67.0), "CuS(s)"),
+
+    //Fluorine
+    F2_g(new Molecule(0.0, 0.0, 203.0), "F2(g)"),
+    F2_aq(new Molecule(-333.0, -279.0, -14.0), "F2(aq)"),
+    H_F_g(new Molecule(-271.0, -273.0, 174.0), "HF(g)"),
+
+    //Hydrogen
+    H2_g(new Molecule(0.0, 0.0, 131.0), "H2(g)"),
+    H_g(new Molecule(217.0, 203.0, 115.0), "H(g)"),
+    H_1_plus_aq(new Molecule(0.0, 0.0, 0.0), "H+(aq)"),
+    O_H_1_minus_aq(new Molecule(-230.0, -157.0, -11.0), "OH-(aq)"),
+    H2_O_l(new Molecule(-286.0, -237.0, 70.0), "H2O(l)"),
+    H2_O_g(new Molecule(-242.0, -229.0, 189.0), "H2O(g)"),
+
+    //Iodine
+    I2_s(new Molecule(0.0, 0.0, 116.0), "I2(s)"),
+    I2_g(new Molecule(62.0, 19.0, 261.0), "I2(g)"),
+    I2_aq(new Molecule(23.0, 16.0, 137.0), "I2(aq)"),
+    I_1_minus_aq(new Molecule(-55.0, -52.0, 106.0), "I-(aq)"),
+
+    //Iron
+    Fe_s(new Molecule(0.0, 0.0, 27.0), "Fe(s)"),
+    Fe3_C_s(new Molecule(21.0, 15.0, 108.0), "Fe3C(s)"),
+    Wustite(new Molecule(-264.0, -240.0, 59.0), "Fe0.95O(s) (wustite)"),
+    Fe_O(new Molecule(-272.0, -255.0, 61.0), "FeO");
 
 
 
