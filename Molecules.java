@@ -109,7 +109,170 @@ public enum Molecules {
     Fe_s(new Molecule(0.0, 0.0, 27.0), "Fe(s)"),
     Fe3_C_s(new Molecule(21.0, 15.0, 108.0), "Fe3C(s)"),
     Wustite(new Molecule(-264.0, -240.0, 59.0), "Fe0.95O(s) (wustite)"),
-    Fe_O(new Molecule(-272.0, -255.0, 61.0), "FeO");
+    Fe_O(new Molecule(-272.0, -255.0, 61.0), "FeO"),
+    Fe3_O4_s_magnetite(new Molecule(-1117.0, -1013.0, 146.0), "Fe3O4(s) (magnetite)"),
+    Fe2_O3_s_hematite(new Molecule(-826.0, -740.0, 90.0), "Fe2O3(s) (hematite)"),
+    Fe_S_s(new Molecule(-95.0, -87.0, 67.0), "FeS(s)"),
+    Fe_S2_s(new Molecule(-178.0, -166.0, 53.0), "FeS2(s)"),
+    Fe_S_O4_s(new Molecule(-929.0, -825.0, 121.0), "FeSO4(s)"),
+
+    //Lead
+    Pb_s(new Molecule(0.0, 0.0, 65.0), "Pb(s)"),
+    Pb_O2_s(new Molecule(-277.0, -217.0, 69.0), "PbO2(s)"),
+    Pb_S_s(new Molecule(-100.0, -99.0, 91.0), "PbS(s)"),
+    Pb_S_O4_s(new Molecule(-920.0, -813.0, 149.0), "PbSO4(s)"),
+
+    //Magnesium
+    Mg_s(new Molecule(0.0, 0.0, 33.0), "Mg(s)"),
+    Mg_C_O3_s(new Molecule(-1113.0, -1029.0, 66.0), "MgCO3(s)"),
+    Mg_O_s(new Molecule(-602.0, -569.0, 27.0), "MgO(s)"),
+    Mg_OH_2_s(new Molecule(-925.0, -834.0, 64.0), "Mg(OH)2(s)"),
+
+    //Manganese
+    Mn_s(new Molecule(0.0, 0.0, 32.0), "Mn(s)"),
+    Mn_O_s(new Molecule(-385.0, -363.0, 60.0), "MnO(s)"),
+    Mn3_O4_s(new Molecule(-1387.0, -1280.0, 149.0), "Mn3O4(s)"),
+    Mn2_O3_s(new Molecule(-971.0, -893.0, 110.0), "Mn2O3(s)"),
+    Mn_O2_s(new Molecule(-521.0, -466.0, 53.0), "MnO2(s)"),
+    Mn_O4_1_minus_aq(new Molecule(-543.0, -449.0, 190.0), "MnO4-(aq)"),
+
+    //Mercury
+    Hg_l(new Molecule(0.0, 0.0, 76.0), "Hg(l)"),
+    Hg2_Cl2_s(new Molecule(-265.0, -211.0, 196.0), "Hg2Cl2(s)"),
+    Hg_Cl2_s(new Molecule(-230.0, -184.0, 144.0), "HgCl2(s)"),
+    Hg_O_s(new Molecule(-90.0, -59.0, 70.0), "HgO(s)"),
+    Hg_S_s(new Molecule(-58.0, -49.0, 78.0), "HgS(s)"),
+
+    //Nickel
+    Ni_s(new Molecule(0.0, 0.0, 30.0), "Ni(s)"),
+    Ni_Cl2_s(new Molecule(-316.0, -272.0, 107.0), "NiCl2(s)"),
+    Ni_O_s(new Molecule(-241.0, -213.0, 38.0), "NiO(s)"),
+    Ni_OH_2_s(new Molecule(-538.0, -453.0, 79.0), "Ni(OH)2(s)"),
+    Ni_S_s(new Molecule(-93.0, -90.0, 53.0), "NiS(s)"),
+
+    //Nitrogen
+    N2_g(new Molecule(0.0, 0.0, 192.0), "N2(g)"),
+    N_H3_g(new Molecule(-46.0, -17.0, 193.0), "NH3(s)"),
+    N_H3_aq(new Molecule(-80.0, -27.0, 111.0), "NH3(aq)"),
+    N_H4_1_plus_aq(new Molecule(-132.0, -79.0, 113.0), "NH4+(aq)"),
+    N_O_g(new Molecule(34.0, 52.0, 240.0), "NO2(g)"),
+    N2_O_g(new Molecule(82.0, 104.0, 220.0), "N2O(g)"),
+    N2_O4_g(new Molecule(10.0, 98.0, 304.0), "N2O4(g)"),
+    N2_O4_l(new Molecule(-20.0, 97.0, 209.0), "N2O4(l)"),
+    N2_O5_s(new Molecule(-42.0, 134.0, 178.0), "N2O5(s)"),
+    N2_H4_l(new Molecule(51.0, 149.0, 121.0), "N2H4(l)"),
+    N2_H3_C_H3_l(new Molecule(54.0, 180.0, 166.0), "N2H3CH3(l)"),
+    H_N_O3_aq(new Molecule(-207.0, -111.0, 146.0), "HNO3(aq)"),
+    H_N_O3_l(new Molecule(-174.0, -81.0, 156.0), "HNO3(l)"),
+    N_H4_Cl_O4_s(new Molecule(-295.0, -89.0, 186.0), "NH4ClO4(s)"),
+    N_H4_Cl_s(new Molecule(-314.0, -203.0, 96.0), "NH4Cl(s)"),
+
+    //Oxygen
+    O2_g(new Molecule(0.0, 0.0, 205.0), "O2(g)"),
+    O_g(new Molecule(249.0, 232.0, 161.0), "O(g)"),
+    O3_g(new Molecule(143.0, 163.0, 239.0), "O3(g)"),
+
+    //Phosphorus
+    P_s_white(new Molecule(0.0, 0.0, 41.0), "P(s) (white)"),
+    P_s_red(new Molecule(-18.0, -12.0, 23.0), "P(s) (red)"),
+    P_s_black(new Molecule(-39.0, -33.0, 23.0), "P(s) (black)"),
+    P4_g(new Molecule(59.0, 24.0, 280.0), "P4(g)"),
+    P_F5_g(new Molecule(-1578.0, -1509.0, 296.0), "PF5(g)"),
+    P_H3_g(new Molecule(5.0, 13.0, 210.0), "PH3(g)"),
+    H3_P_O4_s(new Molecule(-1279.0, -1119.0, 110.0), "H3PO4(s)"),
+    H3_P_O4_l(new Molecule(-1267.0, 404.0, 404.0), "H3PO4(l)"),
+    H3_P_O4_aq(new Molecule(-1288.0, -1143.0, 158.0), "H3PO4(aq)"),
+    P4_O10_s(new Molecule(-2984.0, -2698.0, 229.0), "P4O10(s)"),
+
+    //Potassium
+    K_s(new Molecule(0.0, 0.0, 64.0), "K(s)"),
+    K_Cl_s(new Molecule(-436.0, -408.0, 83.0), "KCl(s)"),
+    K_Cl_O3_s(new Molecule(-391.0, -290.0, 143.0), "KClO3(s)"),
+    K_Cl_O4_s(new Molecule(-433.0, -304.0, 151.0), "KClO4(s)"),
+    K2_O_s(new Molecule(-361.0, -322.0, 98.0), "K2O(s)"),
+    K2_O2_s(new Molecule(-496.0, -430.0, 113.0), "K2O2(s)"),
+    K_O2_s(new Molecule(-283.0, -238.0, 117.0), "KO2(s)"),
+    K_O_H_s(new Molecule(-425.0, -379.0, 79.0), "KOH(s)"),
+    K_O_H_aq(new Molecule(-481.0, -440.0, 9.2), "KOH(aq)"),
+    
+    //Silicon
+    Si_O2_s_quartz(new Molecule(-911.0, -856.0, 42.0), "SiO2(s) (quartz)"),
+    Si_Cl4_l(new Molecule(-687.0, -620.0, 240.0), "SiCl4(l)"),
+
+    //Silver
+    Ag_s(new Molecule(0.0, 0.0, 43.0), "Ag(s)"),
+    Ag_1_plus_aq(new Molecule(105.0, 77.0, 73.0), "Ag+(aq)"),
+    Ag_Br_s(new Molecule(-100.0, -97.0, 107.0), "AgBr(s)"),
+    Ag_C_N_s(new Molecule(146.0, 164.0, 84.0), "AgCN(s)"),
+    Ag_Cl_s(new Molecule(-127.0, -110.0, 96.0), "AgCl(s)"),
+    Ag2_Cr_O4_s(new Molecule(-712.0, -622.0, 217.0), "Ag2CrO4(s)"),
+    Ag_I_s(new Molecule(-62.0, -66.0, 115.0), "AgI(s)"),
+    Ag2_O_s(new Molecule(-31.0, -11.0, 122.0), "Ag2O(s)"),
+    Ag2_S_s(new Molecule(-32.0, -40.0, 146.0), "Ag2S(s)"),
+
+    //Sodium
+    Na_s(new Molecule(0.0, 0.0, 51.0), "Na(s)"),
+    Na_1_plus_aq(new Molecule(-240.0, -262.0, 59.0), "Na+(aq)"),
+    Na_Br_s(new Molecule(-360.0, -347.0, 84.0), "NaBr(s)"),
+    Na2_C_O3_s(new Molecule(-1131.0, -1048.0, 136.0), "Na2CO3(s)"),
+    Na_H_C_O3_s(new Molecule(-948.0, -852.0, 102.0), "NaHCO3(s)"),
+    Na_Cl_s(new Molecule(-411.0, -384.0, 72.0), "NaCl(s)"),
+    Na_H_s(new Molecule(-56.0, -33.0, 40.0), "NaH(s)"),
+    Na_I_s(new Molecule(-288.0, -282.0, 91.0), "NaI(s)"),
+    Na_N_O2_s(new Molecule(-359.0, 404.0, 404.0), "NaNO2(s)"),
+    Na_N_O3_s(new Molecule(-467.0, -366.0, 116.0), "NaNO3(s)"),
+    Na2_O_s(new Molecule(-416.0, -377.0, 73.0), "Na2O(s)"),
+    Na2_O2_s(new Molecule(-515.0, -451.0, 95.0), "Na2O2(s)"),
+    Na_O_H_s(new Molecule(-427.0, -381.0, 64.0), "NaOH(s)"),
+    Na_O_H_aq(new Molecule(-470.0, -419.0, 50.0), "NaOH(aq)"),
+
+    //Sulfur
+    S_s_rhombic(new Molecule(0.0, 0.0, 32.0), "S(s) (rhombic)"),
+    S_s_monoclinic(new Molecule(0.3, 0.1, 33.0), "S(s) (monoclinic)"),
+    S_2_minus_aq(new Molecule(33.0, 86.0, 215.0), "(S)2-(aq)"),
+    S8_g(new Molecule(102.0, 50.0, 431.0), "S8(g)"),
+    S_F6_g(new Molecule(-1209.0, -1105.0, 292.0), "SF6(g)"),
+    H2_S_g(new Molecule(-21.0, -34.0, 206.0), "H2S(g)"),
+    S_O2_g(new Molecule(-297.0, -300.0, 248.0), "SO2(g)"),
+    S_O3_g(new Molecule(-396.0, -371.0, 257.0), "SO3(g)"),
+    S_O4_2_minus_aq(new Molecule(-909.0, -745.0, 20.0), "(SO4)2-(aq)"),
+    H2_S_O4_l(new Molecule(-814.0, -690.0, 157.0), "H2SO4(l)"),
+    H2_S_O4_aq(new Molecule(-909.0, -745.0, 20.0), "H2SO4(aq)"),
+
+    //Tin
+    Sn_s_white(new Molecule(0.0, 0.0, 52.0), "Sn(s) (white)"),
+    Sn_s_gray(new Molecule(22.0, 0.1, 44.0), "Sn(s) (gray)"),
+    Sn_O_s(new Molecule(-285.0, -257.0, 56.0), "SnO(s)"),
+    Sn_O2_s(new Molecule(-581.0, -520.0, 52.0), "SnO2(s)"),
+    Sn_OH_2_s(new Molecule(-561.0, -492.0, 155.0), "Sn(OH)2(s)"),
+
+    //Titanium
+    Ti_Cl4_g(new Molecule(-763.0, -727.0, 355.0), "TiCl4(g)"),
+    Ti_O2_s(new Molecule(-945.0, -890.0, 50.0), "TiO2(s)"),
+
+    //Uranium
+    U_s(new Molecule(0.0, 0.0, 50.0), "U(s)"),
+    U_F6_s(new Molecule(-2137.0, -2008.0, 228.0), "UF6(s)"),
+    U_F6_g(new Molecule(-2113.0, -2029.0, 380.0), "UF6(g)"),
+    U_O2_s(new Molecule(-1084.0, 1029.0, 78.0), "UO2(s)"),
+    U3_O8_s(new Molecule(-3575.0, -3393.0, 282.0), "U3O8(s)"),
+    U_O3_s(new Molecule(-1230.0, -1150.0, 99.0), "UO3(s)"),
+
+    //Xenon
+    Xe_g(new Molecule(0.0, 0.0, 170.0), "Xe(g)"),
+    Xe_F2_g(new Molecule(-108.0, -48.0, 254.0), "XeF2(g)"),
+    Xe_F4_s(new Molecule(-251.0, -121.0, 146.0), "XeF4(s)"),
+    Xe_F6_g(new Molecule(-294.0, 404.0, 404.0), "XeF6(g)"),
+    Xe_O3_s(new Molecule(402.0, 404.0, 404.0), "XeO3(s)"),
+
+    //Zinc
+    Zn_s(new Molecule(0.0, 0.0, 42.0), "Zn(s)"),
+    Zn_O_s(new Molecule(-348.0, -318.0, 44.0), "ZnO(s)"),
+    Zn_OH_2_s(new Molecule(-642.0, 404.0, 404.0), "Zn(OH)2(s)"),
+    Zn_S_s_wurtzite(new Molecule(-193.0, 404.0, 404.0), "ZnS(s) (wurtzite)"),
+    Zn_S_s_zinc_blende(new Molecule(-206.0, -201.0, 58.0), "ZnS(s) (zinc blende)"),
+    Zn_S_O4_s(new Molecule(-983.0, -874.0, 120.0), "ZnSO4(s)");
+
 
 
 
