@@ -156,6 +156,7 @@ public enum Molecules {
     N_H3_aq(new Molecule(-80.0, -27.0, 111.0), "NH3(aq)"),
     N_H4_1_plus_aq(new Molecule(-132.0, -79.0, 113.0), "NH4+(aq)"),
     N_O_g(new Molecule(34.0, 52.0, 240.0), "NO2(g)"),
+    N_O2_g(new Molecule(34.0, 52.0, 240.0), "NO2(g)"),
     N2_O_g(new Molecule(82.0, 104.0, 220.0), "N2O(g)"),
     N2_O4_g(new Molecule(10.0, 98.0, 304.0), "N2O4(g)"),
     N2_O4_l(new Molecule(-20.0, 97.0, 209.0), "N2O4(l)"),

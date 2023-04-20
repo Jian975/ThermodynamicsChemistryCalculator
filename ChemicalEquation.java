@@ -1,21 +1,21 @@
-import java.net.PortUnreachableException;
+import java.util.List;
 
 public class ChemicalEquation {
 
-    private MoleculeWithNumber[] reactants, products;
+    private List<MoleculeWithNumber> reactants, products;
 
-    public ChemicalEquation(MoleculeWithNumber[] reactants, MoleculeWithNumber[] products){
+    public ChemicalEquation(List<MoleculeWithNumber> reactants, List<MoleculeWithNumber> products){
 
         this.reactants = reactants;
         this.products = products;
 
     }
 
-    public MoleculeWithNumber[] getReactants() {
+    public List<MoleculeWithNumber> getReactants() {
         return reactants;
     }
 
-    public MoleculeWithNumber[] getProducts() {
+    public List<MoleculeWithNumber> getProducts() {
         return products;
     }
 
