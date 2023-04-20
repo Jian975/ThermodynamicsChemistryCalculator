@@ -9,6 +9,7 @@ public class ThermodynamicsChemistryCalculator {
         ChemicalEquation chemicalEquation;
 
         //Create your molecules here by referring to the Molecules enum
+        //Once you type Molcules, add a period and a list of molecules will show up
 
         //Reactants
         Molecule no = Molecules.N_O_g.getMolecule();
