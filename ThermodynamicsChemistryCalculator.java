@@ -7,19 +7,33 @@ public class ThermodynamicsChemistryCalculator {
         List<MoleculeWithNumber> reactants = new ArrayList<>();
         List<MoleculeWithNumber> products = new ArrayList<>();
         ChemicalEquation chemicalEquation;
-        
-        Molecule no2 = Molecules.N_O2_g.getMolecule();
-        Molecule n2o4 = Molecules.N2_O4_g.getMolecule();
+
+        //Create your molecules here by referring to the Molecules enum
+        Molecule nh3 = Molecules.N_H3_g.getMolecule();
+        Molecule o2 = Molecules.O2_g.getMolecule();
+
+        Molecule no = Molecules.N_O_g.getMolecule();
+        Molecule h2o = Molecules.H2_O_g.getMolecule();
 
 
-        reactants.add(new MoleculeWithNumber(no2, 2));
-        products.add(new MoleculeWithNumber(n2o4, 1));
+        //Add the reactants here
+        reactants.add(new MoleculeWithNumber(nh3, 4));
+        reactants.add(new MoleculeWithNumber(o2, 5));
+
+        //Add the products here
+        products.add(new MoleculeWithNumber(no, 4));
+        products.add(new MoleculeWithNumber(h2o, 6));
 
         chemicalEquation = new ChemicalEquation(reactants, products);
 
-        double deltaG = chemicalEquation.getDeltaG();
+        //Change the method being called to get different values
+        //Methods:
+        //getDeltaH
+        //getDeltaG
+        //getDeltaS
+        double output = chemicalEquation.getDeltaS();
 
-        //-6
-        System.out.println(deltaG);
+        //Prints output to the console
+        System.out.println(output);
     }
 }
