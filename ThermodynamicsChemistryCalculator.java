@@ -9,10 +9,13 @@ public class ThermodynamicsChemistryCalculator {
         ChemicalEquation chemicalEquation;
 
         //Create your molecules here by referring to the Molecules enum
+
+        //Reactants
+        Molecule no = Molecules.N_O_g.getMolecule();
         Molecule nh3 = Molecules.N_H3_g.getMolecule();
         Molecule o2 = Molecules.O2_g.getMolecule();
-
-        Molecule no = Molecules.N_O_g.getMolecule();
+        //Products
+        Molecule no2 = Molecules.N_O2_g.getMolecule();
         Molecule h2o = Molecules.H2_O_g.getMolecule();
 
 
@@ -21,8 +24,9 @@ public class ThermodynamicsChemistryCalculator {
         reactants.add(new MoleculeWithNumber(o2, 5));
 
         //Add the products here
-        products.add(new MoleculeWithNumber(no, 4));
+        products.add(new MoleculeWithNumber(no2, 4));
         products.add(new MoleculeWithNumber(h2o, 6));
+
 
         chemicalEquation = new ChemicalEquation(reactants, products);
 
@@ -31,7 +35,7 @@ public class ThermodynamicsChemistryCalculator {
         //getDeltaH
         //getDeltaG
         //getDeltaS
-        double output = chemicalEquation.getDeltaS();
+        double output = chemicalEquation.getDeltaH();
 
         //Prints output to the console
         System.out.println(output);
