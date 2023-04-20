@@ -1,7 +1,7 @@
 public class MoleculeWithNumber{
     
-    Molecule molecule;
-    int numberOfMolecule;
+    private Molecule molecule;
+    private int numberOfMolecule;
 
     MoleculeWithNumber(Molecule molecule, int numberOfMolecule){
         this.molecule = molecule;

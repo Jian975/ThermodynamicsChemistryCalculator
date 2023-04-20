@@ -1,12 +1,22 @@
+import java.net.PortUnreachableException;
+
 public class ChemicalEquation {
 
-    MoleculeWithNumber[] reactants, products;
+    private MoleculeWithNumber[] reactants, products;
 
     public ChemicalEquation(MoleculeWithNumber[] reactants, MoleculeWithNumber[] products){
 
         this.reactants = reactants;
         this.products = products;
 
+    }
+
+    public MoleculeWithNumber[] getReactants() {
+        return reactants;
+    }
+
+    public MoleculeWithNumber[] getProducts() {
+        return products;
     }
 
     public double getDeltaH(){

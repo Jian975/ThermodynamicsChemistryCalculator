@@ -276,12 +276,20 @@ public enum Molecules {
 
 
 
-    final Molecule molecule;
-    final String name;
+    private final Molecule molecule;
+    private final String name;
     
     Molecules(Molecule molecule, String name){
         this.molecule = molecule;
         this.name = name;
+    }
+
+    Molecule getMolecule() {
+        return molecule;
+    }
+
+    String getName() {
+        return name;
     }
 
 

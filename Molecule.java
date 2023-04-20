@@ -1,5 +1,5 @@
 public class Molecule {
-    double deltaH, deltaG, deltaS;
+    private final double deltaH, deltaG, deltaS;
 
     Molecule(double deltaH, double deltaG, double deltaS) {
         this.deltaH = deltaH;
